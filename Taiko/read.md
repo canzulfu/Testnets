@@ -1,9 +1,12 @@
-Taiko
-Donanım
+<h1 align="center">Taiko Node Kurulum</h1>
 
-''' 2 CPU 4 GB RAM 50 GB SSD '''
+<h2 align="center">Donanım</h2>
 
-Kurulum
+``` 2 CPU 4 GB RAM 50 GB SSD ```
+
+<h2 align="center">Kurulum</h2>
+
+``` Console
 # Komutları tek tek girelim.
 sudo apt update 
 sudo apt upgrade
@@ -17,22 +20,21 @@ cd simple-taiko-node
 
 #Ayrı screende çalıştıracağız:
 screen -S taiko
-Dikkat edilmesi gereken nokta
+```
+
+<h2 align="center">Dikkat edilmesi gereken nokta</h2>
 Alchemy hesabımdan taiko için bir dApp oluşturdum.
 
 Bu dApp, Ethereum - Sepolia zinciri olacak.
 
-image
+<h2 align="center">Altta ki komutlar ile .env içine girdim.</h2>
 
-Daha sonra View key kısmından key bilgilerimi aldım:
-
-image
-
-Altta ki komutlar ile .env içine girdim.
-
+```console
 cd simple-taiko-node
 cp .env.sample .env
 nano .env
+```
+
 L1_ENDPOINT_HTTP= Bu kısıma Alchemyden aldığınız HTTPS adresini yazıyorsunuz
 
 L1_ENDPOINT_WS= Bu kısıma Alchemyden aldığınız WSS adresini yazıyorsunuz
@@ -41,10 +43,11 @@ L1_PROVER_PRIVATE_KEY= Bu kısıma Metamask Private keyinizi yapıştırıyorsun
 
 CTRL X Y ile çıkıyoruz.
 
-image
 
 Node'u çalıştırma
 Faucet Linki https://sepoliafaucet.com/
 
 # Node'u çalıştırın
+```console
 docker compose up
+```
