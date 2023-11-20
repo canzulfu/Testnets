@@ -1,4 +1,4 @@
-<h1 align="center">Engram Network</h1>
+<h1 align="center">Engram Testnet Kurulum</h1>
 
 > Kurulum nedenlerim: Donanım düşük, teşvikle, kısa sürecek ve sınırlı katılımcı.
 
@@ -6,7 +6,7 @@
 
 > Önemli linkler: [Duyuru](https://t.me/RuesAnnouncement) - [Sohbet](https://t.me/RuesChat) -  [WP Kanalı](https://whatsapp.com/channel/0029VaBcj7V1dAw1H2KhMk34) - [Discord](https://discord.gg/pmaaU4J2)
 
-<h1 align="center">Donanımm</h1>
+<h2 align="center">Donanım</h2>
 
 > [Hetzner](https://github.com/ruesandora/Hetzner) kullanıyorum.
 
@@ -14,7 +14,7 @@
 2 CPU - 4 RAM - 40 SSD - Ubuntu
 ```
 
-<h1 align="center">Kurulum</h1>
+<h2 align="center">Kurulum</h2>
 
 ```console
 # güncelleme
@@ -46,7 +46,7 @@ graffiti=discordİsmi
 docker compose up -d
 ```
 
-<h1 align="center">Log kontrolleri</h1>
+<h2 align="center">Log kontrolleri</h2>
 
 > Loglar sizde farklı olabilir benim kurulumum eskiye ait, güncel versionunu yüklüyorsunuz siz.
 
@@ -76,7 +76,7 @@ docker logs lighthouse_cl -f
 ![image](https://github.com/ruesandora/Engram/assets/101149671/5feac68e-2cac-4dba-b15a-dc100f8f9632)
 
 
-<h1 align="center">Deposit işlemleri</h1>
+<h2 align="center">Deposit işlemleri</h2>
 
 ```console
 # bu komut ile mnemonic oluşturuyor ve yedekliyoruz, akabinde bir EVM cüzdana import ediyoruz.
@@ -107,7 +107,7 @@ bash ./scripts/validator-deposit-data.sh
 > [Bu](https://docs.google.com/forms/d/e/1FAIpQLSeDF_UA5IDI49vJ99EmumHq3eyLhdiVaENTyobw2Egg9AgYhQ/viewform) formu doldurun ve bir kaç gün içinde [burada](https://nodemon.engram.tech/) listeleneceksiniz.
 
 
-<h1 align="center">Hatalar Ve Çözümleri</h1>
+<h2 align="center">Hatalar Ve Çözümleri</h2>
 
 > Syntax error near unexpected token new line Hatası
 ```
