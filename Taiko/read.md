@@ -49,6 +49,7 @@ nano .env
 >Faucet Linki https://sepoliafaucet.com/
 
 <h2 align="center"> Node'u çalıştırın</h2>
+
 ```console
 docker compose up
 ```
