@@ -56,4 +56,5 @@ docker compose up
 
 >Bu kadar, validatörünüzü sync olduktan sonra kurabilirsiniz.
 
-<h1 align="center">TEŞEKKÜRLER.</h1>
+
+<h2 align="center">TEŞEKKÜRLER</h2>
