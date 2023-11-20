@@ -23,6 +23,7 @@ screen -S taiko
 ```
 
 <h2 align="center">Dikkat edilmesi gereken nokta</h2>
+
 >Alchemy hesabımdan taiko için bir dApp oluşturdum.
 
 >Bu dApp, Ethereum - Sepolia zinciri olacak.
