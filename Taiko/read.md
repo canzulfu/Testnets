@@ -23,9 +23,9 @@ screen -S taiko
 ```
 
 <h2 align="center">Dikkat edilmesi gereken nokta</h2>
-Alchemy hesabımdan taiko için bir dApp oluşturdum.
+>Alchemy hesabımdan taiko için bir dApp oluşturdum.
 
-Bu dApp, Ethereum - Sepolia zinciri olacak.
+>Bu dApp, Ethereum - Sepolia zinciri olacak.
 
 <h2 align="center">Altta ki komutlar ile .env içine girdim.</h2>
 
@@ -35,19 +35,19 @@ cp .env.sample .env
 nano .env
 ```
 
-L1_ENDPOINT_HTTP= Bu kısıma Alchemyden aldığınız HTTPS adresini yazıyorsunuz
+>L1_ENDPOINT_HTTP= Bu kısıma Alchemyden aldığınız HTTPS adresini yazıyorsunuz
 
-L1_ENDPOINT_WS= Bu kısıma Alchemyden aldığınız WSS adresini yazıyorsunuz
+>L1_ENDPOINT_WS= Bu kısıma Alchemyden aldığınız WSS adresini yazıyorsunuz
 
-L1_PROVER_PRIVATE_KEY= Bu kısıma Metamask Private keyinizi yapıştırıyorsunuz
+>L1_PROVER_PRIVATE_KEY= Bu kısıma Metamask Private keyinizi yapıştırıyorsunuz
 
-CTRL X Y ile çıkıyoruz.
+>CTRL X Y ile çıkıyoruz.
 
 
-Node'u çalıştırma
-Faucet Linki https://sepoliafaucet.com/
+>Node'u çalıştırma
+>Faucet Linki https://sepoliafaucet.com/
 
-# Node'u çalıştırın
+<h2 align="center"> Node'u çalıştırın</h2>
 ```console
 docker compose up
 ```
